@@ -21,6 +21,12 @@
     main {
         padding: 20px;
     }
+    h2 {
+        margin-top: 40px;
+        color: #80cbc4;
+        border-bottom: 1px solid #333;
+        padding-bottom: 10px;
+    }
     table {
         width: 100%;
         border-collapse: collapse;
@@ -41,35 +47,85 @@
     a:hover {
         text-decoration: underline;
     }
+    .section {
+        margin-bottom: 40px;
+    }
+    .note {
+        font-size: 0.9em;
+        color: #aaa;
+        margin-top: 10px;
+    }
 </style>
 </head>
 <body>
 <header>AFR - Auri Firmware Repo</header>
 <main>
+
 <h2>Index of /aurifirm/</h2>
-<table>
-    <tr>
-        <th>FILE</th>
-        <th>VERSION</th>
-        <th>SIZE</th>
-    </tr>
-    <tr>
-        <td><a href="nrf54lm.ko" download>nrf54lm.ko</a></td>
-        <td>v30102025</td>
-        <td>1,6 MB</td>
-    </tr>
-    <tr>
-        <td><a href="mt6625.ko" download>mt6625.ko</a></td>
-        <td>v30102025</td>
-        <td>1,7 MB</td>
-    </tr>
-    <tr>
-        <td><a href="mt8370.ko" download>mt8370.ko</a></td>
-        <td>v30102025</td>
-        <td>532,7 KB</td>
-    </tr>
-    <tr>
-</table>
+
+<div class="section">
+    <h2>Linux Kernel Modules (.ko)</h2>
+    <table>
+        <tr>
+            <th>FILE</th>
+            <th>VERSION</th>
+            <th>SIZE</th>
+        </tr>
+        <tr>
+            <td><a href="nrf54lm.ko" download>nrf54lm.ko</a></td>
+            <td>v30102025</td>
+            <td>1,6 MB</td>
+        </tr>
+        <tr>
+            <td><a href="mt6625.ko" download>mt6625.ko</a></td>
+            <td>v30102025</td>
+            <td>1,7 MB</td>
+        </tr>
+        <tr>
+            <td><a href="mt8370.ko" download>mt8370.ko</a></td>
+            <td>v30102025</td>
+            <td>532,7 KB</td>
+        </tr>
+        <tr>
+            <td><a href="bcm43143.ko" download>bcm43143.ko</a></td>
+            <td>v30102025</td>
+            <td>2,6 MB</td>
+        </tr>
+    </table>
+</div>
+
+<div class="section">
+    <h2>Firmware Binaries (.bin)</h2>
+    <table>
+        <tr>
+            <th>FILE</th>
+            <th>VERSION</th>
+            <th>SIZE</th>
+        </tr>
+        <tr>
+            <td><a href="brcmfmac43143.bin" download>brcmfmac43143.bin</a></td>
+            <td>v14.11.2014</td>
+            <td>388 KB</td>
+        </tr>
+    </table>
+</div>
+
+<div class="section">
+    <h2>NVRAM Configuration (.txt)</h2>
+    <table>
+        <tr>
+            <th>FILE</th>
+            <th>VERSION</th>
+            <th>SIZE</th>
+        </tr>
+        <tr>
+            <td><a href="brcmfmac43143.txt" download>brcmfmac43143.txt</a></td>
+            <td>v30102025</td>
+            <td>2,6 KB</td>
+        </tr>
+    </table>
+</div>
+
 </main>
 </body>
 </html>
